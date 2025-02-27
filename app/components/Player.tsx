@@ -195,8 +195,8 @@ export default function Player() {
       </button>
 
       {/* Playlist */}
-      <div className={`overflow-hidden transition-all duration-300 ease-in-out ${isPlaylistExpanded ? 'max-h-64' : 'max-h-0'}`}>
-        <div className="bg-gray-900/90 backdrop-blur-sm p-2">
+      <div className={`max-h-[300px] overflow-y-auto transition-all duration-300 ease-in-out ${isPlaylistExpanded ? 'opacity-100' : 'opacity-0 h-0'}`}>
+      <div className="bg-gray-900/90 backdrop-blur-sm p-2">
           {songs.map((song) => (
             <div
               key={song.id}
