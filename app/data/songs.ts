@@ -37,6 +37,24 @@ export interface Song {
       duration: 180 // Update with actual duration in seconds
       ,
       audioUrl: ""
+    },  {
+      id: "4",
+      title: "Arabic Kuthu",
+      artist: "Artist Name",
+      cover: "/songs/covers/Arabic.jpeg", // Update with your cover path
+      file: "/songs/Arabic Kuthu.mp3", // This path should be relative to the public directory
+      duration: 180 // Update with actual duration in seconds
+      ,
+      audioUrl: ""
+    },  {
+      id: "5",
+      title: "Beast",
+      artist: "Artist Name",
+      cover: "/songs/covers/Beast.jpeg", // Update with your cover path
+      file: "/songs/Beast Mode.mp3", // This path should be relative to the public directory
+      duration: 180 // Update with actual duration in seconds
+      ,
+      audioUrl: ""
     },
     // Add more songs as needed
   ];
